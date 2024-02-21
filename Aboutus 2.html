@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/contactusstyle.css">
+<title>About Us</title>
+<link rel="stylesheet" href="footer.html">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #000;
+        color: #fff;
+    }
+    .container{
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    header{
+        background-color: #63B76C;
+        color: #000;
+        text-align: center;
+        padding: 20px 0;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+    header img{
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    header h1{
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 20px;
+    }
+    nav ul{
+        list-style: none;
+        background-color: #333;
+        text-align: center;
+    }
+    nav ul li{
+        display: inline-block;
+    }
+    nav ul li a{
+        display: block;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+    }
+    nav ul li:hover > ul{
+        display: block;
+    }
+    nav ul li:hover a{
+        background-color: #555;
+    }
+    nav ul ul{
+        display: none;
+        position: absolute;
+        background-color: #333;
+        border-radius: 0;
+    }
+    nav ul ul li{
+        display: block;
+    }
+    nav ul ul li a{
+        padding: 10px 30px;
+    }
+    main{
+        padding: 20px 0;
+    }
+    /  * Homepage CSS */
+    .tips{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tip{
+        flex: 1;
+        margin-right: 20px;
+        background-color: #333;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    .tip h3{
+        color: #0F0;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .tip p{
+        color: #fff;
+    }
+    .explore-more{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .explore-more h2{
+        color: #0F0;
+        text-transform: uppercase;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .explore-more a{
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+    }
+    .explore-more a:hover{
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+    /* About Us CSS */
+    .about-section{
+        padding: 20px 0;
+        text-align: center;
+    }
+    .about-section h2{
+        color: #0F0;
+        margin-bottom: 20px;
+    }
+    .about-section p{
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .team-section{
+        text-align: center;
+    }
+    .team-member{
+        display: inline-block;
+        margin: 0 10px;
+        vertical-align: top;
+        width: 200px;
+    }  
+    .team-member img{
+     width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    .team-member p{
+        color: #fff;
+        font-weight: bold;
+    }
+    footer{
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .link a{
+        font-size: 24px;
+        color: #C7EA46;
+        border: 1px solid #ccc;
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        margin: 0 8px;
+        opacity: 0.75;
+    }
+    .link a:hover{
+        color: #354A21;    
+    }
+    .you{
+        color: #234F1E;
+    }
+    .you{
+        background-color: #63B76C;
+        padding: 20px;
+        text-align: center;
+    }
+    .designer{
+        opacity: 0.7;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: black;
+        font-weight: 400;
+        margin: 0px 5px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="PBL logo image.png" alt="Minecraft Studio Logo">
+            <h1>Minecrafter Studio</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="homepage.html" target="_blank">Home</a></li>
+            <li><a href="discover.html" target="_blank">Discover</a></li>
+            <li><a href="contactpage.html" target="_blank">Contact</a></li>
+            <li><a href="refrence.html" target="_blank">Refrence</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="about-section">
+            <div class="container">
+                <img src="group_members_image.png" alt="Group Picture" style="width: 400px; height: auto; margin-bottom: 20px;">
+                <h2>About Us</h2>
+                <p>We are a passionate team of Minecraft enthusiasts dedicated to providing valuable resources, tutorials, and guides to the Minecraft community.</p>
+            </div>
+        </section>
+        <section class="team-section">
+            <div class="container">
+                <h2>Our Team</h2>
+                <div class="team-member">
+                    <img src="Myat_Phoo.png" alt="Team Member 1">
+                    <p>Myat Phoo Pwint</p>
+                    <p style="color: #0F0;">Hello everyone I'm Myat Phoo Pwint. I am a leader from this group and I did everything for my team to sucess this website.</p>
+                </div>
+                <div class="team-member">
+                    <img src="Zayar.png" alt="Team Member 2">
+                    <p>Zayar Linn Phyo</p>
+                    <p style="color: #0F0;">Hello I am Zayar Linn Phyo. I did do my work and find the informations and also help my members and design back some webpages.</p>
+                </div>
+                <div class="team-member">
+                    <img src="Phyo.png" alt="Team Member 3">
+                    <p>Zwe Shein Phyo</p>
+                    <p style="color: #0F0;">Hi I'm Zwe Shein Phyo. In the PBL I find some refercences, I only make and think E question and D question. And I did solve some problems and fix it.</p>
+                </div>
+                <div class="team-member">
+                    <img src="Sai.png" alt="Team Member 4">
+                    <p>Sai Myint Myat Hein</p>
+                    <p style="color: #0F0;">Hi I'm Sai Myint Myat Hein. I help my members a lot and I change and fix some problem that my members have.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="you link">
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjIvfrhopiEAxXVoWMGHQKzA_8QFnoECAcQAQ&url=https%3A%2F%2Ftwitter.com%2F%3Flang%3Den&usg=AOvVaw1Sd3B-_cNZOLSmhw9z2lOm&opi=89978449" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj_i_mCo5iEAxXGqWYCHTS1BjQYABAAGgJzbQ&gclid=EAIaIQobChMI_4v5gqOYhAMVxqlmAh00tQY0EAAYASAAEgKpy_D_BwE&ohost=www.google.com&cid=CAASJeRoTrKH65X5hNpZe3CjRkuc30I0bEGoPWfjeCdb7dJMhnEiQJ0&sig=AOD64_1JzR-vx-2_ioqr5Y3sOQMT7CBa1g&q&adurl&ved=2ahUKEwjE5POCo5iEAxWkyDgGHQXDBtMQ0Qx6BAgFEAE" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <p><span class="designer">Copyright ©:2024 Designed by MINECRAFTER STUDIO</span></p>
+    </div>
+</body>
+</html>
